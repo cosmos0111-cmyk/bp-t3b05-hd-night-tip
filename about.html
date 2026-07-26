@@ -1,72 +1,117 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>홍대 유흥 정보 – 진짜를 찾는 자들을 위한 가이드</title>
-    <meta name="description" content="홍대 유흥에 대한 모든 정보. 숨은 스팟, 가격, 분위기, 팁까지. 눈치 없이 덤비지 마라. 진짜 정보를 원하면 지금 전화해. 010-6279-0862">
-    <meta name="keywords" content="홍대 유흥 정보, 홍대 유흥 스팟, 홍대 클럽 가격, 홍대 술집 추천, 홍대 밤문화 꿀팁, 홍대 지역 시그널, 홍대 유흥 가이드">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-mono-chrome">
+    <title>홍대 유흥 꿀팁: 밤문화 심층 가이드</title>
+    <meta name="description" content="홍대 유흥의 복잡한 세계를 심층 분석합니다. 단순한 팁을 넘어, 당신의 취향과 목적에 맞는 최적의 경험을 위한 핵심 기준과 숨겨진 진실을 탐색하세요.">
+    <meta name="keywords" content="홍대 유흥 꿀팁, 홍대 밤문화, 홍대 술집, 홍대 클럽, 홍대 데이트, 홍대 즐길거리, 홍대 정보">
     <link rel="canonical" href="https://hongdae-night-guide.node-link.shop/about.html">
-    <!-- OG / Twitter -->
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="홍대 유흥 정보 – 밤문화 끝판왕 가이드">
-    <meta property="og:description" content="홍대 유흥의 모든 것. 진짜를 찾는 자들을 위한 직설적인 정보. 눈치 없이 오지 마라.">
     <meta property="og:url" content="https://hongdae-night-guide.node-link.shop/about.html">
-    <meta property="og:site_name" content="홍대 유흥 꿀팁">
-    <meta property="og:locale" content="ko_KR">
-    <meta property="og:image" content="https://t3b05-hd-night-tip.vercel.app/og-info.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="홍대 유흥 정보 – 밤문화 끝판왕 가이드">
-    <meta name="twitter:description" content="홍대 유흥 정보. 가짜 정보 걸러라. 진짜만 남겼다.">
-    <!-- CSS: 동일한 브루탈리스트 디자인 시스템 -->
-    <style>
-        /* ---------- RESET / BASE ---------- */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { font-size: 16px; scroll-behavior: smooth; }
-        body { background: #1a1a1a; color: #e0e0e0; font-family: 'Courier New', Courier, monospace; line-height: 1.5; }
-        a { color: #f04e23; text-decoration: underline; text-underline-offset: 3px; }
-        a:hover { color: #fff; background: #f04e23; }
-        img, svg { max-width: 100%; display: block; }
-        ul, li { list-style: none; }
-        /* ---------- TYPOGRAPHY (brutal) ---------- */
-        h1, h2, h3, h4 { font-weight: 900; text-transform: uppercase; letter-spacing: -0.02em; }
-        h1 { font-size: 4rem; line-height: 0.95; margin-bottom: 0.5rem; color: #fff; text-shadow: 4px 4px 0 #f04e23; }
-        h2 { font-size: 2.5rem; border-left: 8px solid #f04e23; padding-left: 1rem; margin: 2.5rem 0 1.5rem; }
-        h3 { font-size: 1.75rem; margin: 1.5rem 0 0.75rem; }
-        p, li, blockquote { font-size: 1.125rem; margin-bottom: 1rem; }
-        blockquote { border-left: 4px solid #f04e23; padding-left: 1rem; font-style: italic; }
-        /* ---------- CONTAINER / GRID ---------- */
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
-        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
-        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
-        /* ---------- NAV (hamburger + tel) ---------- */
-        nav { background: #111; padding: 1rem 0; border-bottom: 4px solid #f04e23; position: sticky; top: 0; z-index: 100; }
-        .nav-container { display: flex; justify-content: space-between; align-items: center; }
-        .nav-links { display: flex; gap: 2rem; }
-        .nav-links a { color: #ccc; font-weight: 700; font-size: 1.1rem; }
-        .nav-links a:hover { color: #f04e23; background: transparent; }
-        .tel-link { background: #f04e23; color: #fff !important; padding: 0.5rem 1rem; font-weight: 900; text-decoration: none; }
-        .tel-link:hover { background: #fff; color: #f04e23 !important; }
-        .hamburger { display: none; cursor: pointer; }
-        .hamburger span { display: block; width: 28px; height: 3px; background: #fff; margin: 6px 0; transition: 0.3s; }
-        @media (max-width: 768px) {
-            .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: #111; flex-direction: column; padding: 1rem; gap: 1rem; }
-            .nav-links.active { display: flex; }
-            .hamburger { display: block; }
-            .tel-link { display: inline-block; margin-top: 0.5rem; }
-            h1 { font-size: 2.5rem; }
-            h2 { font-size: 1.75rem; }
-            .grid-2, .grid-3 { grid-template-columns: 1fr; }
-        }
-        /* ---------- CARD ---------- */
-        .card { background: #222; border: 3px solid #333; padding: 1.5rem; margin-bottom: 1.5rem; transition: 0.2s; }
-        .card:hover { border-color: #f04e23; }
-        .card h3 { margin-top: 0; }
-        .card .meta { font-size: 0.85rem; color: #999; margin-bottom: 0.5rem; }
-        /* ---------- HERO ---------- */
-        .hero { padding: 4rem 0; text-align: center; border-bottom: 4px solid #f04e23
+    <meta property="og:title" content="홍대 유흥 꿀팁: 밤문화 심층 가이드">
+    <meta property="og:description" content="홍대 유흥의 복잡한 세계를 심층 분석합니다. 단순한 팁을 넘어, 당신의 취향과 목적에 맞는 최적의 경험을 위한 핵심 기준과 숨겨진 진실을 탐색하세요.">
+    <meta property="og:image" content="https://hongdae-night-guide.node-link.shop/og-image-hongdae-info.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hongdae-night-guide.node-link.shop/">
+    <meta property="twitter:title" content="홍대 유흥 꿀팁: 밤문화 심층 가이드">
+    <meta property="twitter:description" content="홍대 유흥의 복잡한 세계를 심층 분석합니다. 단순한 팁을 넘어, 당신의 취향과 목적에 맞는 최적의 경험을 위한 핵심 기준과 숨겨진 진실을 탐색하세요.">
+    <meta property="twitter:image" content="https://hongdae-night-guide.node-link.shop/twitter-image-hongdae-info.jpg">
+    <!-- Assume design system CSS is linked here -->
+    <link rel="stylesheet" href="/css/design-system.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo"><a href="/" class="logo-link">홍대 나이트 가이드</a></h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="/" class="nav-link">홈</a></li>
+                    <li class="nav-item"><a href="/guide" class="nav-link">가이드</a></li>
+                    <li class="nav-item"><a href="/info" class="nav-link current">정보</a></li>
+                    <li class="nav-item"><a href="/contact" class="nav-link">문의</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="hero-section hero-information-page">
+            <div class="container">
+                <h2 class="hero-title">홍대 유흥, 당신은 진짜를 아는가?</h2>
+                <p class="hero-subtitle">단순한 유흥을 넘어, 홍대의 밤은 전략적 접근을 요구한다. 겉모습에 속지 마라.</p>
+            </div>
+        </section>
+
+        <section class="section section-criteria">
+            <div class="container">
+                <h3 class="section-title">선택의 기준: 겉핥기식 정보는 버려라</h3>
+                <div class="card-grid three-col">
+                    <div class="card card-type-info">
+                        <h4 class="card-title">분위기인가, 목적성인가?</h4>
+                        <p class="card-text">그저 '힙하다'는 소리에 이끌려선 안 된다. 당신의 밤이 대화인지, 춤인지, 혹은 그 이상인지 명확히 하라. 홍대는 당신의 모호함을 용납하지 않는다.</p>
+                    </div>
+                    <div class="card card-type-info">
+                        <h4 class="card-title">가성비의 함정: 진짜 가치를 찾아라</h4>
+                        <p class="card-text">싸구려 술에 만족할 것인가? 혹은 그 이상의 경험에 투자할 것인가? 홍대의 '가성비'는 종종 착각을 유발한다. 당신의 시간은 값비싸다.</p>
+                    </div>
+                    <div class="card card-type-info">
+                        <h4 class="card-title">군중 속 고독: 당신만의 공간을 찾아라</h4>
+                        <p class="card-text">인파 속에 휩쓸리는 것이 홍대의 전부라 생각하는가? 숨겨진 골목과 개성 넘치는 공간이 당신을 기다린다. 획일화된 경험을 거부하라.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-regional-signal bg-dark">
+            <div class="container">
+                <h3 class="section-title text-light">홍대 지역 시그널: 숨겨진 코드 해독하기</h3>
+                <div class="card-grid three-col">
+                    <div class="card card-type-signal">
+                        <h4 class="card-title">메인 거리: 보여주기식 화려함</h4>
+                        <p class="card-text">모두가 가는 곳은 모두가 아는 곳이다. 화려하지만 깊이는 없다. 당신의 선택이 클리셰가 되지 않도록 경계하라.</p>
+                    </div>
+                    <div class="card card-type-signal">
+                        <h4 class="card-title">연남동/상수: 진정성의 그림자</h4>
+                        <p class="card-text">조금만 벗어나면 또 다른 홍대가 펼쳐진다. 개성과 여유, 그리고 진정한 '로컬'의 맛. 당신의 감각을 깨워라.</p>
+                    </div>
+                    <div class="card card-type-signal">
+                        <h4 class="card-title">심야의 골목: 진짜 홍대 유저의 선택</h4>
+                        <p class="card-text">새벽이 깊어질수록 홍대의 본모습이 드러난다. 대중에게 알려지지 않은 공간에서 당신의 밤은 비로소 특별해질 것이다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-faq">
+            <div class="container">
+                <h3 class="section-title">자주 묻는 질문: 당신이 알아야 할 진실</h3>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h4 class="faq-question">Q. 홍대 클럽, 정말 입장 기준이 까다로운가요?</h4>
+                        <p class="faq-answer">A. 그렇다. 하지만 '까다롭다'는 기준이 무엇인지 파악하는 것이 중요하다. 당신의 복장과 태도가 곧 당신의 명함이다. 어설픈 시도는 실패를 부른다.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4 class="faq-question">Q. 홍대에서 '진짜' 맛집을 찾는 팁이 있나요?</h4>
+                        <p class="faq-answer">A. 온라인 평점은 참고용일 뿐, 맹신은 금물이다. 줄 서 있는 곳을 무작정 따라가지 마라. 당신의 후각과 직감을 믿고, 현지인의 발길이 잦은 곳을 찾아라. 실패는 곧 경험이다.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4 class="faq-question">Q. 홍대 밤문화, 안전하게 즐기는 방법은?</h4>
+                        <p class="faq-answer">A. 기본적인 상식과 경계심을 버리지 마라. 과도한 음주는 판단력을 흐리게 하고, 당신을 취약하게 만든다. 당신의 안전은 당신의 책임이다. 동행이 있다면 더욱 좋다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2023 홍대 나이트 가이드. 모든 권리 보유.</p>
+        </div>
+    </footer>
 </body>
 </html>
