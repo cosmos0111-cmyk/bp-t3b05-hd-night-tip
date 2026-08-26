@@ -41,6 +41,71 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://hongdae-night-guide.node-link.shop/posts/gemini-coverage-20260722-0067.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-night-guide.node-link.shop/posts/gemini-coverage-20260722-0068.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-night-guide.node-link.shop/posts/gemini-coverage-20260722-0073.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-night-guide.node-link.shop/posts/guide-001-1330xl7.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-night-guide.node-link.shop/posts/qa-002-1330xl7.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-night-guide.node-link.shop/posts/review-001.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-night-guide.node-link.shop/posts.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-night-guide.node-link.shop/posts/juice-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-night-guide.node-link.shop/posts/juice-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-night-guide.node-link.shop/posts/normal-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-night-guide.node-link.shop/posts/normal-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-night-guide.node-link.shop/posts/normal-3.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hongdae-night-guide.node-link.shop/posts/t3link-001-3dxqew.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hongdae-night-guide.node-link.shop/posts/gemini-coverage-20260719-0452.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -116,16 +181,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hongdae-night-guide.node-link.shop/posts/gemini-coverage-20260722-0067.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-night-guide.node-link.shop/posts/gemini-coverage-20260722-0068.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://hongdae-night-guide.node-link.shop/posts/gemini-coverage-20260722-0069.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -146,11 +201,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hongdae-night-guide.node-link.shop/posts/gemini-coverage-20260722-0073.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://hongdae-night-guide.node-link.shop/posts/gemini-coverage-20260722-0074.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -167,61 +217,6 @@
   </url>
   <url>
     <loc>https://hongdae-night-guide.node-link.shop/posts/gemini-coverage-20260722-0077.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-night-guide.node-link.shop/posts/guide-001-1330xl7.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-night-guide.node-link.shop/posts/juice-1.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-night-guide.node-link.shop/posts/juice-2.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-night-guide.node-link.shop/posts/normal-1.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-night-guide.node-link.shop/posts/normal-2.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-night-guide.node-link.shop/posts/normal-3.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-night-guide.node-link.shop/posts/qa-002-1330xl7.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-night-guide.node-link.shop/posts/review-001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-night-guide.node-link.shop/posts/t3link-001-3dxqew.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-night-guide.node-link.shop/posts.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hongdae-night-guide.node-link.shop/posts-2.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
